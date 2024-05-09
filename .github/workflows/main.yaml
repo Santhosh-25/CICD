@@ -13,7 +13,7 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '18'
-      - name: Installing catalyst
+      - name: Installing catalyst cli
         run : npm i -g zcatalyst-cli
       - name: Installing Packages for 'Node'
         run: cd functions/cicd_function/ && npm install --omit=dev

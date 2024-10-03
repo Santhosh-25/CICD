@@ -1,12 +1,8 @@
 {
   "functions": {
     "targets": [
-<<<<<<< HEAD
-      "cicd_function"
-=======
-      "test_cicd"
->>>>>>> ae2cc66 (test commit)
-    ],
+      "cicd_function",
+      "test_cicd"    ],
     "ignore": [],
     "source": "functions"
   },
